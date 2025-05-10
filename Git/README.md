@@ -14,6 +14,7 @@ Pour vérifier que vos paramètres ont bien été pris en compte, et vérifier l
 ``git config --global color.diff auto``
 ``git config --global color.status auto``
 ``git config --global color.branch auto``
+``git config --global init.defaultBranch main``		Pour nommer tout les branches initiaux creer à **main**
 
 ### Configurez l’éditeur
 ``git config --global core.editor notepad++``			notepad++
@@ -80,7 +81,6 @@ Pour cloner le projet sur notre machine locale
 ### Creation et gestion d'une branche
 Voir la list de nos branches
 ``git branch``
-
 #### option 1
 Créer une branche
 `` git branch nom_branche``
@@ -108,8 +108,20 @@ Verifions si nous sommes sur la branche
 Pour fusionner une branche lorsqu'on est placé sur le master (la branche principale du projet)
 ``git merge nom_branche``
 
-Et enfin entré cette commande pour envoyer vos modification sur le serverur distant
-``git push`
+Supprimer une branche
+``git branch -d nom_branche
 
+Pour renommer la branche pricipal a **main**
+``git branch -M main``
+
+## Travaillez avec un dépôt distant
+Accédez à un dépôt distant
+``git clone lien_https``
+
+Mettez à jour le dépôt en local
+Imaginons que durant la semaine, un de vos amis ait ajouté des modifications sur la branche main et que vous souhaitiez les récupérer.  Comment faire ?
+
+Assurez-vous d’être dans le dépôt :
+``git pull origin main``
 
 
