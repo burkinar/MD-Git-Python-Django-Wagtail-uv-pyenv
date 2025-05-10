@@ -77,7 +77,7 @@ Pour cloner le projet sur notre machine locale
 ``git clone https://github.com/nom_compte/nom_projet.git``
 
 ## Appréhendez le système de branches
-
+### Creation et gestion d'une branche
 Voir la list de nos branches
 ``git branch``
 
@@ -89,7 +89,16 @@ Commande permet de nous positionner sur la branche crée
 
 Faire les modification sur les fichiers que nous desirona
 
+1. ``git add .``
+2. ``git commit -m "La description du commit" ``
+3. ``git push origin test``
 
+### Fusion d'une branche avec la branche principal
+Selectionnnons la branche main 
+``git checkout main``
+
+Verifions si nous sommes sur la branche
+````git branch``
 
 
 git checkout -b nom_branche => créé la nouvelle branche et nous place dessus pour enregistrer nos modifications
