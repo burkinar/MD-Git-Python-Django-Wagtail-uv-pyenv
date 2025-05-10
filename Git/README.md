@@ -80,12 +80,16 @@ Pour cloner le projet sur notre machine locale
 ### Creation et gestion d'une branche
 Voir la list de nos branches
 ``git branch``
-
+#### option 1
 Créer une branche
-`` git branch nom_brache``
+`` git branch nom_branche``
 
 Commande permet de nous positionner sur la branche crée
-``git checkout nom_brache``
+``git checkout nom_branche``
+
+#### option 2
+Créé la nouvelle branche et nous place dessus pour enregistrer nos modifications
+``git checkout -b nom_branche ``
 
 Faire les modification sur les fichiers que nous desirona
 
@@ -94,13 +98,14 @@ Faire les modification sur les fichiers que nous desirona
 3. ``git push origin test``
 
 ### Fusion d'une branche avec la branche principal
-Selectionnnons la branche main 
+Selectionnons la branche main 
 ``git checkout main``
 
 Verifions si nous sommes sur la branche
-````git branch``
+``git branch``
+
+Pour fusionner une branche lorsqu'on est placé sur le master (la branche principale du projet)
+``git merge nom_branche``
 
 
-git checkout -b nom_branche => créé la nouvelle branche et nous place dessus pour enregistrer nos modifications
 
-git merge nom_branche => pour fusionner une branche lorsqu'on est placé sur le master (la branche principale du projet)
