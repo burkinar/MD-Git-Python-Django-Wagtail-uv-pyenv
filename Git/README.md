@@ -49,6 +49,8 @@ Pour enregistrer les modifications opérées dans notre projet, doit être préc
 3. Créer et iInserer la clé dans les paramettres de GitHub
 
 
+
+
 git clone https://github.com/nom_compte/nom_projet.git  => permet de cloner le projet sur notre machine locale
 
 
