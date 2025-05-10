@@ -27,18 +27,8 @@ Pour vérifier que vos paramètres ont bien été pris en compte, et vérifier l
 ``git config --list``
 
 ## Initialisez et utilisation de Git votre dépôt local 
-``git init``
 
-Permet de savoir à tout moment où en est dans notre projet versionné avec git
-``git status``
-
-Pour ajouter un fichier à notre projet
-``git add <nom_fichier> <nom_fichier>``  ou ``git add .`` 
-
-Pour enregistrer les modifications opérées dans notre projet, doit être précédé d'un git add
-``git commit -m "message" ``
-
-### Envoyez votre commit sur le dépôt distant avec la commande git push
+### Configuration du SSH
 
 1. Génération d’une nouvelle clé SSH
 ``ssh-keygen -t ed25519 -C "burkinar@gmail.com" ``
@@ -48,6 +38,27 @@ Pour enregistrer les modifications opérées dans notre projet, doit être préc
 
 3. Créer et iInserer la clé dans les paramettres de GitHub
 
+### Gestion du projet
+Initialisons le projet
+``git init``
+
+Permet de savoir à tout moment où en est dans notre projet versionné avec git
+``git status``
+
+Pour ajouter un fichier à notre projet
+``git add <nom_fichier> <nom_fichier>``  ou ``git add .`` 
+
+Pour enregistrer les modifications opérées dans notre projet, doit être précédé d'un git add
+``git commit -m "message" ``	ou ``git commit`` pour ouvrr un editeur de texte
+
+Pour choissir la branche 
+``git branch -M main``
+
+On verifie si le depot distant existe
+``git remote add origin https://github.com/burkinar/MD-Git-Python-Django-Wagtail-uv-pyenv.git``
+
+Pour pousser les modifications en local sur le repository distant de GitHub
+``git push -u origin main``
 
 
 
