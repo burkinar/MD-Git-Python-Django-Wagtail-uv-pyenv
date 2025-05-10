@@ -108,7 +108,8 @@ Verifions si nous sommes sur la branche
 Pour fusionner une branche lorsqu'on est placé sur le master (la branche principale du projet)
 ``git merge nom_branche``
 
-Ajout branch test2
+Et enfin entré cette commande pour envoyer vos modification sur le serverur distant
+``git push`
 
 
 
