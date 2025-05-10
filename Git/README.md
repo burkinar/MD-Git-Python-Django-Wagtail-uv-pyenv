@@ -80,6 +80,7 @@ Pour cloner le projet sur notre machine locale
 ### Creation et gestion d'une branche
 Voir la list de nos branches
 ``git branch``
+
 #### option 1
 Créer une branche
 `` git branch nom_branche``
@@ -106,6 +107,8 @@ Verifions si nous sommes sur la branche
 
 Pour fusionner une branche lorsqu'on est placé sur le master (la branche principale du projet)
 ``git merge nom_branche``
+
+Ajout branch test2
 
 
 
