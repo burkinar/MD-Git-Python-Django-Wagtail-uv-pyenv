@@ -60,16 +60,37 @@ On verifie si le depot distant existe
 Pour pousser les modifications en local sur le repository distant de GitHub
 ``git push -u origin main``
 
+Pour une simplication des commande à faires quand on modifie un fichier
+``git add .`` 
+``git commit -m "message" 
+``git push origin main``	ou ``git push``
+
+Pour récupérer les modifications du repository distant sur notre projet en local.
+``git pull``
+
+Commande pour voir les commit realisé au cours de l'edition du projet
+``git log``
+ou
+``git log -1`` => pour afficher la dernière modification enregistrée (dernier commit)
+
+Pour cloner le projet sur notre machine locale
+``git clone https://github.com/nom_compte/nom_projet.git``
+
+## Appréhendez le système de branches
+
+Voir la list de nos branches
+``git branch``
+
+Créer une branche
+`` git branch nom_brache``
+
+Commande permet de nous positionner sur la branche crée
+``git checkout nom_brache``
+
+Faire les modification sur les fichiers que nous desirona
 
 
-git clone https://github.com/nom_compte/nom_projet.git  => permet de cloner le projet sur notre machine locale
 
-
-git push => pour pousser les modifications en local sur le repository distant (ex : ici GitHub)
-
-git pull => pour récupérer les modifications du repository distant sur notre projet en local.
-
-git log -1 => pour afficher la dernière modification enregistrée (dernier commit)
 
 git checkout -b nom_branche => créé la nouvelle branche et nous place dessus pour enregistrer nos modifications
 
