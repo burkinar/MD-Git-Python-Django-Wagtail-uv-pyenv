@@ -123,3 +123,7 @@ Imaginons que durant la semaine, un de vos amis ait ajouté des modifications su
 
 Assurez-vous d’être dans le dépôt :
 ``git pull origin main``
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3182d7ba9fdead4b6b04f9e95aea60ab68bc36d1
