@@ -126,8 +126,13 @@ Assurez-vous d’être dans le dépôt :
 
 # Pratiquez et corrigez vos erreurs sur un dépôt local
 
-Les techniques de journalisation
-``git reflog`` pour voir tous les commit qui sont fait et pour revenir a une version du commit on tape de commande:
+## Les techniques de journalisation
+
+Pour voir tous les commit qui sont fait et pour revenir a une version du commit on tape de commande:
+``git reflog``
+``git log``
+
+Pour venir a un commit 
 ``git checkout identifiant_SHA``
 
-``git log``
+
