@@ -111,7 +111,7 @@ Pour fusionner une branche lorsqu'on est placé sur le master (la branche princi
 Supprimer une branche
 ``git branch -d nom_branche
 
-Pour renommer la branche pricipal a **main**
+Pour renommer la branche pricipal a **main** quand on initialise le projet au debut
 ``git branch -M main``
 
 ## Travaillez avec un dépôt distant
@@ -123,5 +123,3 @@ Imaginons que durant la semaine, un de vos amis ait ajouté des modifications su
 
 Assurez-vous d’être dans le dépôt :
 ``git pull origin main``
-
-
