@@ -124,3 +124,10 @@ Imaginons que durant la semaine, un de vos amis ait ajouté des modifications su
 Assurez-vous d’être dans le dépôt :
 ``git pull origin main``
 
+# Pratiquez et corrigez vos erreurs sur un dépôt local
+
+Les techniques de journalisation
+``git reflog`` pour voir tous les commit qui sont fait et pour revenir a une version du commit on tape de commande:
+``git checkout identifiant_SHA``
+
+``git log``
